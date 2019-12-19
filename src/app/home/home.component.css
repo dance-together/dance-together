@@ -1,0 +1,32 @@
+
+  card-img-top {
+    cursor: pointer;
+  }
+  
+  img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .main {
+    padding-bottom: 10px;
+  }
+  
+  .carousel-inner img {
+    vertical-align: middle;
+    border-style: none;
+    height: 550px;
+  }
+  
+  h1 {
+    color: darkgrey;
+  }
+  
+  .card-deck img {
+    width: 90%;
+    height: 550px;
+  }
+  
+  .text p {
+    font-size: 15px;
+  }

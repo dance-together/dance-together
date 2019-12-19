@@ -1,0 +1,78 @@
+<header class="fixed-top" id="header_nav">
+
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <button class="navbar-toggler py-4 px-3" id="button-mobile-shape" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggle-menu"><i class="p fas fa-bars"></i></span>
+      </button>
+      <div class="row d-md-none pt-1 pb-2">
+        <img class="col" routerLink="/home" src="../../assets/dt_logo.jpg" id="logo-mobile" alt="">
+        <ul>
+          <a class="col fill-button px-0  mt-1" style="height: 60px; padding-top: 15px;">
+            <span class="fill-button-hover">
+              <span class="fill-button-text">Rise and Shine</span>
+            </span>
+          </a>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <div class="logo-media d-none d-md-block mr-auto pt-2 pb-4">
+          <img routerLink="/home" src="../../assets/dt_logo.jpg" alt="">
+        </div>
+
+        <ul class="navbar-nav ">
+
+          <li class="nav-item mr-md-2 mr-lg-3 grid">
+            <input type="radio" name="tabs" id="tab1" />
+            <label class="nav-link" for="tab1" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+              routerLink="/home">Hem</label>
+          </li>
+          <li class="nav-item mr-md-2 mr-lg-3 grid">
+            <input type="radio" name="tabs" id="tab2" />
+            <label class="nav-link" for="tab2" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+              routerLink="/courses">Danskurser</label>
+          </li>
+          <li class="nav-item mr-md-2 mr-lg-3 grid">
+            <input type="radio" name="tabs" id="tab3" />
+            <label class="nav-link" for="tab3" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+              routerLink="/group-travel">Gruppresor</label>
+          </li>
+     
+          <li class="nav-item mr-md-2 mr-lg-3 grid">
+            <input type="radio" name="tabs" id="tab4" />
+            <label class="nav-link" for="tab4" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+              routerLink="/group-training">Gruppträning</label>
+          </li>
+          <li class="nav-item mr-md-2 mr-lg-3 grid">
+
+            <input type="radio" name="tabs" id="tab5" />
+            <label class="nav-link" for="tab5" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+              routerLink="/gallery">Galleri</label>
+          </li>
+          <li class="nav-item mr-md-2 mr-lg-3 grid">
+
+            <input type="radio" name="tabs" id="tab6" />
+            <label class="nav-link" for="tab6" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+              routerLink="/contact"> Kontakt</label>
+          </li>
+
+
+        </ul>
+        <div class="d-none d-md-block pt-2 pb-4">
+          <li class="nav-item mr-md-2 mr-lg-1 mt-3">
+            <a class="col fill-button px-0 ">
+              <span class="fill-button-hover">
+                <span class="fill-button-text">Rise & Shine</span>
+              </span>
+            </a>
+          </li>
+        </div>
+      </div>
+
+
+    </div>
+  </nav>
+</header>
