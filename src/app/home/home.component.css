@@ -15,7 +15,7 @@
   .carousel-inner img {
     vertical-align: middle;
     border-style: none;
-    height: 550px;
+    height: 100%;
   }
   
   h1 {
