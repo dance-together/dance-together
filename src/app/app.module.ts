@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { EventsComponent } from './events/events.component';
+import { DanceTravelComponent } from './dance-travel/dance-travel.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EventsComponent } from './events/events.component';
     HomeComponent,
     HeaderComponent,
     GalleryComponent,
-    EventsComponent
+    EventsComponent,
+    DanceTravelComponent
   ],
   imports: [
     BrowserModule,
