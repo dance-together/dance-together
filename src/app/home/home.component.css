@@ -21,6 +21,11 @@
   h1 {
     color: darkgrey;
   }
+  #color-gray {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+  }
   
   .card-deck img {
     width: 90%;
