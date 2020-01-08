@@ -8,6 +8,7 @@ import { GroupTravelComponent } from './group-travel/group-travel.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { EventsComponent } from './events/events.component';
 import { DanceTravelComponent } from './dance-travel/dance-travel.component';
+import { TraveleventsComponent } from './travelevents/travelevents.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'home', component:HomeComponent},
   {path:'dance-travel', component:DanceTravelComponent},
+  {path:'travelevents' , component:TraveleventsComponent},
   { path: 'events', component: EventsComponent}
 ];
 

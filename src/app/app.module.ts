@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { EventsComponent } from './events/events.component';
 import { DanceTravelComponent } from './dance-travel/dance-travel.component';
+import { TraveleventsComponent } from './travelevents/travelevents.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DanceTravelComponent } from './dance-travel/dance-travel.component';
     HeaderComponent,
     GalleryComponent,
     EventsComponent,
-    DanceTravelComponent
+    DanceTravelComponent,
+    TraveleventsComponent
   ],
   imports: [
     BrowserModule,
