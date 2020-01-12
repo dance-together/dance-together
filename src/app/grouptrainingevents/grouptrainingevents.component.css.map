@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "grouptrainingevents.component.scss",
+        "../../_colors.scss"
+    ],
+    "names": [],
+    "file": "grouptrainingevents.component.css"
+}

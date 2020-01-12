@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "travelevents.component.scss",
+        "../../_colors.scss"
+    ],
+    "names": [],
+    "file": "travelevents.component.css"
+}

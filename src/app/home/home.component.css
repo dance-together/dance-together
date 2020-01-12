@@ -20,10 +20,10 @@ img {
 h1 {
   color: darkgrey;
 }
+
 #color-gray {
   color: white;
   font-weight: bold;
- 
 }
 
 .card-deck img {
@@ -34,3 +34,4 @@ h1 {
 .text p {
   font-size: 15px;
 }
+/*# sourceMappingURL=home.component.css.map */
