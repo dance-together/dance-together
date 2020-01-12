@@ -34,14 +34,14 @@
       z-index: 99;
       font-size: 25px;
       border: 4px solid darken($white,10%) !important;
-      color: white;
+      color: $white;
       cursor: pointer;
       border-radius: 100%;
-      background-color: darken($white,10%) ;
+      background: darken($white,40%);
     }
     
     #myBtn:hover {
-      background-color: darken($white,20%) ;
+      background-color: darken($white,60%) ;
     }
     
         

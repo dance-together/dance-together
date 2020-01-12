@@ -1,7 +1,7 @@
 @import '../../_colors.scss';
 
 #footer-section {
-    background: #f0f0f0;
+    background: darken($white,1%);
     /* Social media */
     /* Footer lists */
   }
@@ -15,8 +15,8 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background: #263238;
-    color: #f0f0f0;
+    background: darken($white,60%);
+      color: darken($white,1%);
     -webkit-transition: ease-in-out .1s;
     transition: ease-in-out .1s;
   }
@@ -25,9 +25,8 @@
     position: absolute;
     top: 33%;
   }
-  
   #footer-section .link:hover {
-    background: #aaaaaa;
+    background: darken($white,50%);
   }
   
   #footer-section .footer-list {
@@ -38,6 +37,7 @@
   #footer-section .footer-list h5 {
     font-weight: 400;
     letter-spacing: 2px;
+    color: darken($white,50%);
   }
   
   #footer-section .footer-list li {

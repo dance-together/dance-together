@@ -1,8 +1,8 @@
 hr.style-eight {
   height: 5px;
   border: 1;
-  -webkit-box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8);
-  box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8);
+  -webkit-box-shadow: inset 0 9px 9px -3px gray;
+  box-shadow: inset 0 9px 9px -3px gray;
   border-radius: 5px;
 }
 
@@ -19,6 +19,10 @@ hr.style-eight {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+h5 {
+  color: black;
 }
 
 #contact-fram-text {

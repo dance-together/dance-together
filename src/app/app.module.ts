@@ -14,6 +14,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { EventsComponent } from './events/events.component';
 import { DanceTravelComponent } from './dance-travel/dance-travel.component';
 import { TraveleventsComponent } from './travelevents/travelevents.component';
+import { GroupTrainingeventsComponent } from './group-trainingevents/group-trainingevents.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TraveleventsComponent } from './travelevents/travelevents.component';
     GalleryComponent,
     EventsComponent,
     DanceTravelComponent,
-    TraveleventsComponent
+    TraveleventsComponent,
+    GroupTrainingeventsComponent
   ],
   imports: [
     BrowserModule,

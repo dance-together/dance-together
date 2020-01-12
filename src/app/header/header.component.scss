@@ -1,9 +1,9 @@
 @import '../../_colors.scss';
 
 header {
-    background: whitesmoke;
-    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    background: darken($white,1%);
+    -webkit-box-shadow: 0px 0px 8px $black;
+    box-shadow: 0px 0px 8px $black;
     letter-spacing: 2px;
   }
   #logo-mobile {
@@ -19,22 +19,22 @@ header {
   }
   
   header ul {
-    background-color: whitesmoke;
+    background-color:  darken($white,1%);
     padding-left: 10px;
   }
   
   header .nav-link {
-    color: black;
+    color: $black;
     padding-bottom: 13px;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid  darken($white,1%);
     -webkit-transition: ease-in-out .3s;
     transition: ease-in-out .3s;
   }
   
   header .nav-link:hover {
-    border-bottom: 2px solid gray;
-    color: gray;
-  }
+    border-bottom: 2px solid darken($white,20%);
+   color:  $dark-gray;
+ }
   
   /*second part*/
   li {
@@ -59,8 +59,8 @@ header {
   [id^="tab"]:checked + label {
     top: 0;
     padding-top: 14px;
-    color: gray;
-    border-bottom: 2px solid gray;
+    color:$dark-gray;
+    border-bottom: 2px solid $dark-gray;
     /* color: white; */
   }
   
@@ -77,7 +77,7 @@ header {
     background: -webkit-gradient(linear, left top, right top, from(#67b26b), to(#4ca2cb)) !important;
     background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
     border: none;
-    color: #FFFFFF;
+    color: $white;
     text-align: center;
     text-transform: uppercase;
     font-size: 22px;
@@ -193,7 +193,7 @@ header {
           grid-template-columns: auto auto auto;
     }
     [id^="tab"]:checked + label, header .nav-link:hover {
-      border-bottom: 1px solid gray;
+      border-bottom: 1px solid $dark-gray;;
     }
     .logo-media {
       margin-left: -20px;

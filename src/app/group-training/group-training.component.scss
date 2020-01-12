@@ -13,12 +13,9 @@
     cursor: pointer;
   }
   
-  h5 {
-    color: #ffa600;
-  }
   
   p {
-    color: black;
+    color: $black;
   }
   
   .lib-panel {
@@ -33,7 +30,7 @@
   .lib-panel .row,
   .lib-panel .col-md-6 {
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: $white;
   }
   
   .lib-panel .lib-row {
@@ -41,7 +38,7 @@
   }
   
   .lib-panel .lib-row.lib-header {
-    background-color: #FFFFFF;
+    background-color: $white;
     font-size: 20px;
     padding: 10px 20px 0 20px;
   }
@@ -49,7 +46,7 @@
   .lib-panel .lib-row.lib-header .lib-header-seperator {
     height: 2px;
     width: 26px;
-    background-color: #d9d9d9;
+    background-color: inherit;
     margin: 7px 0 7px 0;
   }
   
@@ -72,8 +69,8 @@
   }
   
   .box-shadow {
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 10px 0 $black;
+    box-shadow: 0 0 10px 0 $black;
   }
   
   .no-padding {
