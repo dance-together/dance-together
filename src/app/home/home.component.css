@@ -34,4 +34,61 @@ h1 {
 .text p {
   font-size: 15px;
 }
+
+#home-side-images {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  background-color: inherit;
+}
+
+@media only screen and (max-width: 1450px) and (min-width: 850px) {
+  #home-side-images {
+    max-width: 550px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 650px) {
+  #matter {
+    color: blue;
+  }
+  #home-side-images img {
+    width: 220px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 580px) {
+  .carousel-item img {
+    height: 250px;
+    width: 400px;
+  }
+  #matter {
+    color: red;
+  }
+  .card-deck {
+    margin: 0;
+    padding: 0;
+  }
+  #home-side-images img {
+    height: 200px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 /*# sourceMappingURL=home.component.css.map */
