@@ -42,36 +42,10 @@ header .nav-link:hover {
   color: black;
 }
 
-header .nav-link {
-  color: #575757;
-}
-
 /*second part*/
 li {
   float: left;
   display: block;
-}
-
-input[type="radio"] {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
-
-label {
-  display: block;
-  padding: 14px 21px;
-  position: relative;
-  /* top: 4px; */
-  cursor: pointer;
-}
-
-[id^="tab"]:checked + label {
-  top: 0;
-  padding-top: 14px;
-  color: gray;
-  border-bottom: 2px solid gray;
-  /* color: white; */
 }
 
 [id^="tab"]:checked ~ [id^="tab-content"] {

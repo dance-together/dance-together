@@ -43,9 +43,9 @@ header {
 }
 
 
- header .nav-link {
-  color:  darken($white,60%);
- }
+//  header .nav-link {
+//   color:  darken($white,60%);
+//  }
 
 
   
@@ -55,27 +55,27 @@ header {
     display: block;
   }
   
-  input[type="radio"] {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
+  // input[type="radio"] {
+  //   position: absolute;
+  //   top: -9999px;
+  //   left: -9999px;
+  // }
   
-  label {
-    display: block;
-    padding: 14px 21px;
-    position: relative;
-    /* top: 4px; */
-    cursor: pointer;
-  }
+  // label {
+  //   display: block;
+  //   padding: 14px 21px;
+  //   position: relative;
+  //   /* top: 4px; */
+  //   cursor: pointer;
+  // }
   
-  [id^="tab"]:checked + label {
-    top: 0;
-    padding-top: 14px;
-    color:$dark-gray;
-    border-bottom: 2px solid $dark-gray;
-    /* color: white; */
-  }
+  // [id^="tab"]:checked + label {
+  //   top: 0;
+  //   padding-top: 14px;
+  //   color:$dark-gray;
+  //   border-bottom: 2px solid $dark-gray;
+  //   /* color: white; */
+  // }
   
   [id^="tab"]:checked ~ [id^="tab-content"] {
     display: block;
