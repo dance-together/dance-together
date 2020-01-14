@@ -32,9 +32,22 @@ header {
   }
   
   header .nav-link:hover {
-    border-bottom: 2px solid darken($white,20%);
+    border-bottom: 2px solid darken($white,15%);
    color:  $dark-gray;
+   }
+ 
+    .navbar .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+      color:$dark-gray;
+      border-bottom: 2px solid $dark-gray;
+    color:  $black;
+}
+
+
+ header .nav-link {
+  color:  darken($white,60%);
+  
  }
+
   
   /*second part*/
   li {
@@ -187,7 +200,6 @@ header {
   
   @media only screen and (max-width: 990px) and (min-width: 770px) {
     .navbar-nav {
-      display: -ms-grid;
       display: grid;
       -ms-grid-columns: auto auto auto;
           grid-template-columns: auto auto auto;

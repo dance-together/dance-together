@@ -32,8 +32,18 @@ header .nav-link {
 }
 
 header .nav-link:hover {
-  border-bottom: 2px solid #bdbdbd;
+  border-bottom: 2px solid #cacaca;
   color: gray;
+}
+
+.navbar .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: gray;
+  border-bottom: 2px solid gray;
+  color: black;
+}
+
+header .nav-link {
+  color: #575757;
 }
 
 /*second part*/
