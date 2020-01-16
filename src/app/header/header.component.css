@@ -48,6 +48,12 @@ li {
   display: block;
 }
 
+input[type="radio"] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
 }
